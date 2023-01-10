@@ -1,17 +1,14 @@
 {
-  "name": " ",
-  "version": "0.0.1",
-  "description": "",
-  "keywords": "",
-  "license": "",
-  "author": "",
+  "name": "js-starter-code",
+  "version": "1.0.0",
+  "description": "JS Starter Code",
+  "main": "script.js",
   "scripts": {
-    "build": "parcel build index1.html",
-    "dev": "parcel index1.html --open",
-    "start": "npm run build && npm run dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "lite-server"
   },
+  "author": "Pluralsight",
+  "license": "ISC",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "lite-server": "^2.5.4"
   }
 }
