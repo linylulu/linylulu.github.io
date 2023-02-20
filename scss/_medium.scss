@@ -1,0 +1,44 @@
+@media only screen and (min-width: 768px) {
+
+  header {
+    font-size: 1.5em;
+    .row-head {
+      justify-content: space-between;
+    }
+    .dummy-head {
+      display: block;
+    }
+  }
+
+  .medium-6 {
+    width: 50%;
+  }
+  .medium-4 {
+    width: 33.3333%;
+  }
+
+  .medium-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  nav {
+    button {
+      display: none;
+    }
+    ul {
+      display: block;
+    }
+    li {
+      padding: 0.5em 1.5em;
+      float: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+    }
+  }
+
+}
+

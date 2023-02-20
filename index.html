@@ -1,17 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>JS Starter</title>
-<!--  <link rel="stylesheet" href="style.css">-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">-->
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Home | Liny LuLu</title>
 </head>
 <body>
-<h1>test</h1>
-<h2><div id="messageElement">o ty chuju złoty</div></h2>
+<header>
+    <div class="row row-head limited prim-bk">
+        <img src="liny/logo-baza-tylko-konik.svg" alt="Logo Liny LyLu">
+        <div class="header-text">
+            <h1>LINY LULU</h1>
+            <h2>HALTERY WODZE LINY</h2>
+        </div>
+        <div class="dummy-head"></div>
+    </div>
+</header>
 
+<nav>
+    <div class="limited sec-bk medium-row">
+        <button id="hamburgerBtn">&#9776;</button>
+        <ul id="primaryNav">
+            <li><a class="active" href="index.html"><img src="liny/icons8-home-24.png" alt="home button"></a></li>
+            <li><a href="cennik.html">Cennik</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+        </ul>
+    </div> <!-- end row -->
+</nav>
 
+<main>
+    <div class="prim-bk limited labeled">
+        <img src="liny/tlo1.jpg" alt="tło">
+        <div class="ontop">
+            <p>A tu będzie jakis mundry tekst, jak już bedzie.może nawet bardzo długi aboco hwjdb cj nbhijkeqbc iw hiwefbn  iwbpi3r vp3i iqev bieqfwbv njri342rntvpi.</p>
+            <p>Pewnie bedzie miał kilka akapitów.</p>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="row prim-bk limited">
+        <section class="column small-12 medium-6 large-3">
+            <h2>Jeden cosiek</h2>
+            <ul>
+                <li>aaa bb ccc</li>
+                <li>xxx vj4on</li>
+                <li>cm m m emeqkm</li>
+            </ul>
+        </section>
+        <section class="column small-12 medium-6 large-3">
+            <h2>inne coś</h2>
+            <ul>
+                <li>whb eiqb nir</li>
+                <li>jvbjfjv dfenqnjnekn</li>
+
+            </ul>
+        </section>
+        <section class="column small-12 medium-6 large-3">
+            <h2>Social</h2>
+            <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+            </ul>
+        </section>
+        <section class="column small-12 medium-6 large-3">
+            <h2>About Us</h2>
+            <img src="liny/logo-baza.svg" alt="logo">
+            <p>&copy; 2023 &bull; all rights reserved.</p>
+        </section>
+
+    </div>
+</footer>
+<script src="js/menuToggle.js"></script>
 </body>
 </html>
