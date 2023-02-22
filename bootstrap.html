@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <title>bootstrapowa karuzela zawsze rozwesela</title>
+    <style>
+        .img-container {
+            /*max-width: 1140px;*/
+            margin: auto;
+            display: block;
+            background-color: silver;
+            padding: 0;
+            width: 100%;
+            aspect-ratio: 1/2;
+            margin: auto;
+        }
+        .img-in-container {
+            object-fit: cover;
+            width: 100%;
+            height: 100%
+        }
+        .ontop {
+            position: absolute;
+            top: 0;
+        }
+
+        .ontop p{
+            font-size: 2em;
+            font-weight: 300;
+            color: white;
+            padding: 0 0.2em;
+            background-color: rgba(0,0,0,0.1);
+        }
+        .limited {
+            max-width: 1140px;
+            margin: auto;
+        }
+
+    </style>
+</head>
+<body>
+<main class="limited">
+    <div id="carouselExampleAutoplaying" class="carousel slide img-container" data-bs-ride="carousel" data-bs-interval=1000>
+        <div class="carousel-inner w-100 h-100">
+            <div class="carousel-item active w-100 h-100">
+                <img src="liny/tlo1.jpg" class="img-in-container" alt="...">
+            </div>
+            <div class="carousel-item w-100 h-100">
+                <img src="liny/tlo2.jpg" class="img-in-container" alt="...">
+            </div>
+            <div class="carousel-item w-100 h-100">
+                <img src="liny/tlo3.jpg" class="img-in-container" alt="...">
+            </div>
+        </div>
+
+        <div class="ontop">
+            <p>A tu będzie jakis mundry tekst, jak już bedzie.może nawet bardzo długi aboco hwjdb cj nbhijkeqbc iw hiwefbn  iwbpi3r vp3i iqev bieqfwbv njri342rntvpi.</p>
+            <p>Pewnie bedzie miał kilka akapitów.</p>
+        </div>
+
+<!--        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"-->
+<!--                data-bs-slide="prev">-->
+<!--            <span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
+<!--            <span class="visually-hidden">Previous</span>-->
+<!--        </button>-->
+<!--        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"-->
+<!--                data-bs-slide="next">-->
+<!--            <span class="carousel-control-next-icon" aria-hidden="true"></span>-->
+<!--            <span class="visually-hidden">Next</span>-->
+<!--        </button>-->
+    </div>
+</main>
+
+</body>
+<script src="bootstrap/js/bootstrap.bundle.js"></script>
+</html>

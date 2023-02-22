@@ -20,3 +20,5 @@ N
 fruitPies.html,2\3\23f39a9339b90e404ee1ea07ef163d3fba057fd9
 <
 pattern.html,e\8\e86b7dfe576876d237140b1eba9b0a5285888030
+B
+css/styles.css.map,7\9\79cc5b2e1656a8a60a958872c19884428bc3341b
